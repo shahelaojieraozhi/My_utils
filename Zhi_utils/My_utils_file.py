@@ -1,6 +1,7 @@
 '''
 读写excel文件
 '''
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -183,6 +184,8 @@ T1 = time.time()
 T2 = time.time()
 print('程序运行时间:%s毫秒' % ((T2 - T1) * 1000))  # 程序运行时间:0.0毫秒
 
+import math
+
 
 # 另一种形式(深度训练过程)：输出几分几秒
 def time_since(since):
@@ -255,4 +258,3 @@ if __name__ == '__main__':
 
     # ddawwdawdwd
     # wdaddwadwdd
-
